@@ -1,0 +1,91 @@
+/* start global properties*/
+*{
+    box-sizing: border-box;
+}
+.capitalize{
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+body{
+    background-color:#eee;
+    height: 100vh;
+    font-family: sans-serif;
+}
+main{
+    padding:10px;
+}
+button{
+    cursor: pointer;
+    border:none;
+    padding:3px;
+    border-radius: 3px;
+    background-color:#ccc;
+}
+button:hover{
+    background-color: #333;
+    color:#fff;
+    transition: all .5s ease-in-out;
+}
+.busy{
+    color:red;
+}
+
+/* end global properties*/
+
+/* start css props */
+main .heading{
+    text-align: center;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+main .heading .customers-count{
+    width: 75px;
+    height: 40px;
+    background-color: #333;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    line-height: 2;
+}
+main .heading h2{
+    font-size: 28px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 200px;
+}
+.container .customers, .container .server{
+text-align: center;
+}
+.container .customers h5,
+.container .server h5{
+    font-size:16px;
+}
+.container .customers svg.fa-user-group{
+    color:green;
+}
+.container .customers svg.fa-user-group.queue{
+    color:orange;
+}
+.container .customers span ,
+ .container .server span {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #fff;
+    border:1px solid #333;
+}
+main .control-container .output-container{
+    margin-bottom:40px;
+  
+}
+main .control-container .control-room{
+   text-align: center;
+}
+/* end css props */
