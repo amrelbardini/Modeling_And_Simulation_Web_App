@@ -193,6 +193,9 @@ startBtn.addEventListener('click',function(){
         averageTimeBetArrivals();
         AvgWaitingOfThoseWhoWait();
         avgTimeCustomerSpends(); 
+    }else if(customerNum>=10){
+        document.getElementById('limit').classList.add('show');
+
     }
         
 });

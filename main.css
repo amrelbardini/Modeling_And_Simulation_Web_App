@@ -98,7 +98,9 @@ main .limit{
     font-weight: bold;
     color:red;
     font-size:20px;
-    letter-spacing: 1.2;
+    margin-bottom:20px;
+   
 }
+
 
 /* end css props */
