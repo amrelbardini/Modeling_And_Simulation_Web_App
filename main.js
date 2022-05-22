@@ -179,6 +179,7 @@ function fillTableVals(){
 let startBtn=document.getElementById('start');
 startBtn.addEventListener('click',function(){
     // for(let i=0;i<10;i++){}
+    if(customerNum<10){
         serviceTime=servTime();
         interarrivalTime=arrTime();
         setTimeout(arrival,interarrivalTime);
@@ -192,6 +193,8 @@ startBtn.addEventListener('click',function(){
         averageTimeBetArrivals();
         AvgWaitingOfThoseWhoWait();
         avgTimeCustomerSpends(); 
+    }
+        
 });
 
 //reset button 

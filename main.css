@@ -30,6 +30,12 @@ button:hover{
 .busy{
     color:red;
 }
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
 
 /* end global properties*/
 
@@ -88,4 +94,11 @@ main .control-container .output-container{
 main .control-container .control-room{
    text-align: center;
 }
+main .limit{
+    font-weight: bold;
+    color:red;
+    font-size:20px;
+    letter-spacing: 1.2;
+}
+
 /* end css props */
